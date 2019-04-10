@@ -9,5 +9,16 @@ public class Resistor
     public int tens;
     public int hundreds;
 
+    public String toString()
+    {
+        return value + "\t" + ones + "\t" + tens + "\t" + hundreds;
+    }   
 
+    public Resistor(TableRow row)
+    {
+        value = row.getInt(1);
+        ones = row.getInt(1);
+        tens  = row.getInt(1);
+        hundreds = row.getInt(1);
+    }
 }
