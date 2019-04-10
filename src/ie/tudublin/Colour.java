@@ -23,7 +23,7 @@ public class Colour
 
     public String toString()
     {
-        return colour + "\t" + r + "\t" + g + "\t" + b + "\t" + value + "\t";
+        return colour + "\t" + r + "\t" + g + "\t" + b + "\t" + value;
     }
 
     public Colour(TableRow row)
