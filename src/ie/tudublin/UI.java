@@ -44,6 +44,11 @@ public class UI extends PApplet
 		}
 	}
 
+	public String findColor(int value)
+	{
+
+	}
+
 	public void setup() 
 	{
 		loadColours();
