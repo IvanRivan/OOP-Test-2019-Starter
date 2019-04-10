@@ -27,6 +27,8 @@ public class UI extends PApplet
 		separate(92);
 	}
 
+	
+
 	public void setup() 
 	{
 	}
@@ -34,4 +36,5 @@ public class UI extends PApplet
 	public void draw()
 	{			
 	}
+	private ArrayList<Colour> colours = new ArrayList<Colour>();
 }
